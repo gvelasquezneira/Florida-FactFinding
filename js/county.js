@@ -36,7 +36,7 @@ function loadCounty(countyId) {
             urlsArray.forEach((url, index) => {
                 let buttonText = '';
         
-                if (site.name === "County Commission") {
+                if (site.name === "Alachua County Commission") {
                     switch (index) {
                         case 0:
                             buttonText = 'County';
@@ -58,7 +58,7 @@ function loadCounty(countyId) {
                     }
                 }
         
-                else if (site.name === "Sheriff's Office") {
+                else if (site.name === "Alachua Sheriff's Office") {
                     switch (index) {
                         case 0:
                             buttonText = 'Sheriff';
@@ -73,7 +73,7 @@ function loadCounty(countyId) {
                             buttonText = `Visit Website`;
                     }
                 }
-                else if (site.name === "Property Appraiser") {
+                else if (site.name === "Alachua Property Appraiser") {
                     switch (index) {
                         case 0:
                             buttonText = 'Property Appraiser';
@@ -81,11 +81,14 @@ function loadCounty(countyId) {
                         case 1:
                             buttonText = 'Property Search';
                             break;
+                        case 2:
+                            buttonText = 'Map';
+                            break;
                         default:
                             buttonText = `Visit Website`;
                     }
                 }
-                else if (site.name === "School Board") {
+                else if (site.name === "Alachua School Board") {
                     switch (index) {
                         case 0:
                             buttonText = 'School Board';
@@ -102,17 +105,20 @@ function loadCounty(countyId) {
                         case 4:
                             buttonText = 'Directory';
                             break;
+                        case 5:
+                            buttonText = 'PRR';
+                            break;
                         default:
                             buttonText = `Visit Website`;
                     }
                 }
                 else if (site.url) {
-                    if (site.name === "Clerk of Court") {
+                    if (site.name === "Alachua Clerk of Court") {
                         buttonText = "Clerk of Court";
                     } else if (site.name === "Tax Collector") {
-                        buttonText = "Tax Collector";
+                        buttonText = "Alachua Tax Collector";
                     } else if (site.name === "Jail") {
-                        buttonText = "Inmate Search";
+                        buttonText = "Alachua Inmate Search";
                     } else {
                         buttonText = "Visit Website";
                     }
@@ -144,9 +150,6 @@ function loadCounty(countyId) {
                         case 1:
                             buttonText = 'PRR';
                             break;
-                        case 2:
-                            buttonText = 'Ride-Along';
-                            break;
                         default:
                             buttonText = `Visit Website`;
                     }
@@ -158,6 +161,9 @@ function loadCounty(countyId) {
                             break;
                         case 1:
                             buttonText = 'Property Search';
+                            break;
+                        case 2:
+                            buttonText = 'Map';
                             break;
                         default:
                             buttonText = `Visit Website`;
@@ -179,6 +185,9 @@ function loadCounty(countyId) {
                             break;
                         case 4:
                             buttonText = 'Directory';
+                            break;
+                        case 5:
+                            buttonText = 'PRR';
                             break;
                         default:
                             buttonText = `Visit Website`;

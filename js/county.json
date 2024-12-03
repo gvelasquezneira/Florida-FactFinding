@@ -14,6 +14,12 @@
         "description": "Through the Alachua County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
       },
       {
+        "name": "School Board",
+        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools", "https://www.sbac.edu/legal"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
         "name": "Sheriff's Office",
         "urls": ["https://acso.us/", "https://acso.us/how-to/request-public-records/", "https://acso.us/how-to/join-a-ride-along/"
         ],
@@ -21,7 +27,7 @@
       },
       {
         "name": "Property Appraiser",
-        "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000"
+        "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000", "https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=1&PageID=10767"
       ],
         "description": "Run property searches through the Alachua County Property Appraiser site."
       },
@@ -34,12 +40,6 @@
         "name": "Tax Collector",
         "urls": "https://www.alachuacollector.com/",
         "description": "This is the Alachua County Tax Collector site."
-      },
-      {
-        "name": "School Board",
-        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools"
-      ],
-        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
       },
       {
         "name": "Jail",
@@ -62,36 +62,36 @@
         "description": "Through the Levy County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
       },
       {
+        "name": "Levy School Board",
+        "urls": ["http://www.levyk12.org/home", "http://www.levyk12.org/school-board", "http://www.levyk12.org/superintendent", "http://www.levyk12.org/finance", "http://www.levyk12.org/schools", "https://www.sbac.edu/legal"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
         "name": "Levy Sheriff's Office",
-        "urls": ["https://acso.us/", "https://acso.us/how-to/request-public-records/", "https://acso.us/how-to/join-a-ride-along/"
+        "urls": ["https://levyso.com/", "https://levyso.com/making-a-public-records-request/"
         ],
         "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
       },
       {
         "name": "Levy Property Appraiser",
-        "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000"
+        "urls": ["https://www.qpublic.net/fl/levy/","https://qpublic.schneidercorp.com/Application.aspx?AppID=930&LayerID=18185&PageTypeID=2&PageID=8125", "https://qpublic.schneidercorp.com/Application.aspx?App=LevyCountyFL&PageType=Map"
       ],
         "description": "Run property searches through the County Property Appraiser site."
       },
       {
         "name": "Levy Clerk of Court",
-        "urls": "https://www.alachuaclerk.org/court_records/index.cfm?section=login&r=588181",
+        "urls": "https://online.levyclerk.com/landmarkweb",
         "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
       },
       {
         "name": "Levy Tax Collector",
-        "urls": "https://www.alachuacollector.com/",
+        "urls": "https://levytax.org/",
         "description": "This is the Tax Collector site."
       },
       {
-        "name": "Levy School Board",
-        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools"
-      ],
-        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
-      },
-      {
         "name": "Levy Jail",
-        "urls": "https://asosite.alachuasheriff.org/ASOInmateLookup.aspx",
+        "urls": "https://www.inmatesearchflorida.org/Levy_County.html",
         "description": "Find the name, age, sex, race, pod and booking date of an inmate."
       }
     ]
