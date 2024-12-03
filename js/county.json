@@ -1,0 +1,37 @@
+{
+  "alachua": {
+    "name": "Alachua County",
+    "websites": [
+      {
+        "name": "County Commission",
+        "urls": [
+          "https://alachuacounty.us/",
+          "https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
+          "https://acgm.maps.arcgis.com/apps/instant/basic/index.html?appid=675274e039a6454a81a46fc44d30a453",
+          "https://alachua.granicus.com/ViewPublisher.php?view_id=8"
+        ],
+        "description": "Through the Alachua County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+      },
+      {
+        "name": "Sheriff's Office",
+        "url": "https://acso.us/",
+        "description": "Alachua County Sheriff's Office for law enforcement services."
+      },
+      {
+        "name": "Property Appraiser",
+        "url": "https://acso.us/",
+        "description": "Alachua County Sheriff's Office for law enforcement services."
+      }
+    ]
+  },
+  "levy": {
+    "name": "Levy County",
+    "websites": [
+      {
+        "name": "County Website",
+        "url": "https://levycounty.org/",
+        "description": "Official website of Levy County."
+      }
+    ]
+  }
+}
