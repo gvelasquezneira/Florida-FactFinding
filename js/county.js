@@ -106,6 +106,84 @@ function loadCounty(countyId) {
                             buttonText = `Visit Website`;
                     }
                 }
+                else if (site.name === "Levy County Commission") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'County';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Meetings';
+                            break;
+                        case 3:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+        
+                else if (site.name === "Levy Sheriff's Office") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Sheriff';
+                            break;
+                        case 1:
+                            buttonText = 'PRR';
+                            break;
+                        case 2:
+                            buttonText = 'Ride-Along';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Levy Property Appraiser") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Property Appraiser';
+                            break;
+                        case 1:
+                            buttonText = 'Property Search';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Levy School Board") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'School Board';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Superintendent';
+                            break;
+                        case 3:
+                            buttonText = 'Finances';
+                            break;
+                        case 4:
+                            buttonText = 'Directory';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.url) {
+                    if (site.name === "Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Jail") {
+                        buttonText = "Inmate Search";
+                    } else {
+                        buttonText = "Visit Website";
+                    }
+                }
                 else {
                     buttonText = "Visit Website";
                 }

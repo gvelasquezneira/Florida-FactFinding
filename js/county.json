@@ -52,9 +52,47 @@
     "name": "Levy County",
     "websites": [
       {
-        "name": "County Website",
-        "url": "https://levycounty.org/",
-        "description": "Official website of Levy County."
+        "name": "Levy County Commission",
+        "urls": [
+          "https://www.levycounty.org/",
+          "https://www.levycounty.org/212/Board-of-County-Commissioners",
+          "https://www.levycounty.org/calendar.aspx",
+          "https://www.levycounty.org/198/Public-Information-Office"
+        ],
+        "description": "Through the Levy County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+      },
+      {
+        "name": "Levy Sheriff's Office",
+        "urls": ["https://acso.us/", "https://acso.us/how-to/request-public-records/", "https://acso.us/how-to/join-a-ride-along/"
+        ],
+        "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
+      },
+      {
+        "name": "Levy Property Appraiser",
+        "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000"
+      ],
+        "description": "Run property searches through the County Property Appraiser site."
+      },
+      {
+        "name": "Levy Clerk of Court",
+        "urls": "https://www.alachuaclerk.org/court_records/index.cfm?section=login&r=588181",
+        "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
+      },
+      {
+        "name": "Levy Tax Collector",
+        "urls": "https://www.alachuacollector.com/",
+        "description": "This is the Tax Collector site."
+      },
+      {
+        "name": "Levy School Board",
+        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
+        "name": "Levy Jail",
+        "urls": "https://asosite.alachuasheriff.org/ASOInmateLookup.aspx",
+        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
       }
     ]
   }
