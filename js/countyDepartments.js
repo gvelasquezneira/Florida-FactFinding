@@ -53,7 +53,7 @@ function loaddepartment(departmentId) {
         }
 
         contentArea.innerHTML += `
-            <div class="col-lg-10 mb-4">
+            <div class="col-lg-10 mb-2">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body flex-column">
                         <h5 class="card-title">${site.name}</h5>
