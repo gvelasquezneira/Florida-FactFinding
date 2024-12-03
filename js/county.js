@@ -451,7 +451,7 @@ function loadCounty(countyId) {
                 }
         
                 buttons += `
-    <div class="d-flex flex-row align-items-center justify-content-between mb-2">
+    <div class="d-flex align-items-center">
         <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
     </div>
 `;
