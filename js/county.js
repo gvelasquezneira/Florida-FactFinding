@@ -33,8 +33,7 @@ function loadCounty(countyId) {
         if (site.urls) {
             site.urls.forEach((url, index) => {
                 let buttonText = '';
-        
-                // Custom button labels for "County Commission"
+
                 if (site.name === "County Commission") {
                     switch (index) {
                         case 0:
@@ -54,11 +53,9 @@ function loadCounty(countyId) {
                             break;
                         default:
                             buttonText = `Visit Website`;
-                            break;
                     }
                 }
         
-                // Custom button labels for "Sheriff's Office"
                 else if (site.name === "Sheriff's Office") {
                     switch (index) {
                         case 0:
@@ -72,7 +69,6 @@ function loadCounty(countyId) {
                             break;
                         default:
                             buttonText = `Visit Website`;
-                            break;
                     }
                 }
                 else if (site.name === "Property Appraiser") {
@@ -85,19 +81,45 @@ function loadCounty(countyId) {
                             break;
                         default:
                             buttonText = `Visit Website`;
-                            break;
                     }
                 }
-        
-                // Default fallback for other sites
-                else {
-                    buttonText = `Link ${index + 1}`;
+                else if (site.name === "School Board") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'School Board';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Superintendent';
+                            break;
+                        case 3:
+                            buttonText = 'Finances';
+                            break;
+                        case 4:
+                            buttonText = 'Directory';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
                 }
-        
-                // Generate the button
+                else if (site.url) {
+                    if (site.name === "Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Jail") {
+                        buttonText = "Inmate Search";
+                    } else {
+                        buttonText = "Visit Website";
+                    }
+                }
+    
                 buttons += `<a href="${url}" class="btn btn-primary mb-2 me-2" target="_blank">${buttonText}</a>`;
             });
-        }        
+        }
+              
 
         contentArea.innerHTML += `
             <div class="col-md-6 mb-4">

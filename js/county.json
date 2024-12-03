@@ -24,6 +24,27 @@
         "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000"
       ],
         "description": "Run property searches through the Alachua County Property Appraiser site."
+      },
+      {
+        "name": "Clerk of Court",
+        "urls": "https://www.alachuaclerk.org/court_records/index.cfm?section=login&r=588181",
+        "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
+      },
+      {
+        "name": "Tax Collector",
+        "urls": "https://www.alachuacollector.com/",
+        "description": "This is the Alachua County Tax Collector site."
+      },
+      {
+        "name": "School Board",
+        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
+        "name": "Jail",
+        "urls": "https://asosite.alachuasheriff.org/ASOInmateLookup.aspx",
+        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
       }
     ]
   },
