@@ -451,7 +451,7 @@ function loadCounty(countyId) {
                 }
         
                 buttons += `
-    <div class="d-flex align-items-center justify-content-between mb-2">
+    <div class="d-flex flex-row align-items-center justify-content-between mb-2">
         <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
     </div>
 `;
@@ -462,7 +462,7 @@ function loadCounty(countyId) {
               
 
         contentArea.innerHTML += `
-            <div class="col-md-6 mb-4">
+            <div class="col-lg-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">${site.name}</h5>

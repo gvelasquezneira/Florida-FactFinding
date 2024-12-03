@@ -1,27 +1,27 @@
-let countyData = {};
+let departmentData = {};
 
 fetch('js/countyDepartments.json')
     .then(response => response.json())
     .then(data => {
-        countyData = data; 
-        populateCountyDropdown();
+        departmentData = data; 
+        populateDepartmentDropdown();
     })
 
-function populateCountyDropdown() {
-    const dropdown = document.getElementById('countyDropdown');
+function populateDepartmentDropdown() {
+    const dropdown = document.getElementById('departmentDropdown');
     
-    for (const county in countyData) {
+    for (const department in departmentData) {
         const li = document.createElement('li');
-        li.innerHTML = `<a class='dropdown-item' href='#' onclick='loadCounty("${county}")'>${countyData[county].name}</a>`;
+        li.innerHTML = `<a class='dropdown-item' href='#' onclick='loadDepartment("${department}")'>${departmentData[department].name}</a>`;
         dropdown.appendChild(li);
     }
 }
 
-function loadCounty(countyId) {
-    const county = countyData[countyId];
-    if (!county) return;
+function loadDepartment(departmentId) {
+    const Department = departmentData[departmentId];
+    if (!department) return;
 
-    const contentArea = document.getElementById('countyContent');
+    const contentArea = document.getElementById('departmentContent');
     const welcomeSection = document.getElementById('welcomeSection');
     contentArea.innerHTML = '';
 
@@ -190,11 +190,10 @@ function loadCounty(countyId) {
                 }
         
                 buttons += `
-    <div class="d-flex align-items-center justify-content-between mb-2">
+    <div class="d-flex flex-row align-items-center justify-content-between mb-2">
         <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
     </div>
 `;
-
             });
         }
         
