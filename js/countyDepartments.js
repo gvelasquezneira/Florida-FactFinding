@@ -45,7 +45,7 @@ function loaddepartment(departmentId) {
 
                
                 buttons += `
-                    <div class="d-flex flex-row align-items-center justify-content-between mb-2">
+                    <div class="align-items-center justify-content-between mb-2">
                         <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
                     </div>
                 `;
@@ -55,7 +55,7 @@ function loaddepartment(departmentId) {
         contentArea.innerHTML += `
             <div class="col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
+                    <div class="card-body flex-column">
                         <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
                         <div class="mt-auto">
