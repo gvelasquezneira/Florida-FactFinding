@@ -19,7 +19,7 @@ function populateDepartmentDropdown() {
 
 function loadDepartment(departmentId) {
     const Department = departmentData[departmentId];
-    if (!department) return;
+    if (!Department) return;
 
     const contentArea = document.getElementById('departmentContent');
     const welcomeSection = document.getElementById('welcomeSection');
