@@ -189,10 +189,12 @@ function loadCounty(countyId) {
                     buttonText = "Visit Website";
                 }
         
-                buttons += 
-                <div class="d-flex align-items-center justify-content-between mb-2">
-                <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
-                </div>;
+                buttons += `
+    <div class="d-flex align-items-center justify-content-between mb-2">
+        <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
+    </div>
+`;
+
             });
         }
         
