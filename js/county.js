@@ -119,9 +119,7 @@ function loadCounty(countyId) {
                         buttonText = "Alachua Tax Collector";
                     } else if (site.name === "Jail") {
                         buttonText = "Alachua Inmate Search";
-                    } else {
-                        buttonText = "Visit Website";
-                    }
+                    } 
                 }
                 else if (site.name === "Levy County Commission") {
                     switch (index) {
@@ -200,9 +198,7 @@ function loadCounty(countyId) {
                         buttonText = "Tax Collector";
                     } else if (site.name === "Levy Jail") {
                         buttonText = "Inmate Search";
-                    } else {
-                        buttonText = "Visit Website";
-                    }
+                    } 
                 }
                 else {
                     buttonText = "Visit Website";
