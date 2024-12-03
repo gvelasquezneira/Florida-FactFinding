@@ -108,6 +108,9 @@ function loadCounty(countyId) {
                         case 5:
                             buttonText = 'PRR';
                             break;
+                        case 6:
+                            buttonText = 'Meetings';
+                            break;
                         default:
                             buttonText = `Visit Website`;
                     }
@@ -187,6 +190,9 @@ function loadCounty(countyId) {
                         case 5:
                             buttonText = 'PRR';
                             break;
+                        case 6:
+                            buttonText = 'Meetings';
+                            break;
                         default:
                             buttonText = `Visit Website`;
                     }
@@ -197,6 +203,88 @@ function loadCounty(countyId) {
                     } else if (site.name === "Levy Tax Collector") {
                         buttonText = "Tax Collector";
                     } else if (site.name === "Levy Jail") {
+                        buttonText = "Inmate Search";
+                    } 
+                }
+                else if (site.name === "Bradford County Commission") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'County';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Meetings';
+                            break;
+                        case 3:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                
+                else if (site.name === "Bradford Sheriff's Office") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Sheriff';
+                            break;
+                        case 1:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Bradford Property Appraiser") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Property Appraiser';
+                            break;
+                        case 1:
+                            buttonText = 'Property Search';
+                            break;
+                        case 2:
+                            buttonText = 'Map';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Bradford School Board") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'School Board';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Superintendent';
+                            break;
+                        case 3:
+                            buttonText = 'Finances';
+                            break;
+                        case 4:
+                            buttonText = 'Directory';
+                            break;
+                        case 5:
+                            buttonText = 'PRR';
+                            break;
+                        case 6:
+                            buttonText = 'Meetings';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.url) {
+                    if (site.name === "Bradford Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Bradford Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Bradford Jail") {
                         buttonText = "Inmate Search";
                     } 
                 }

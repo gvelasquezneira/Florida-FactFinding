@@ -15,7 +15,7 @@
       },
       {
         "name": "Alachua School Board",
-        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools", "https://www.sbac.edu/legal"
+        "urls": ["https://www.sbac.edu/", "https://fl02219191.schoolwires.net/domain/101", "https://fl02219191.schoolwires.net/Page/30237", "https://fl02219191.schoolwires.net/Page/30565", "https://www.sbac.edu/schools", "https://www.sbac.edu/legal", "https://www.sbac.edu/schoolboard"
       ],
         "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
       },
@@ -63,7 +63,7 @@
       },
       {
         "name": "Levy School Board",
-        "urls": ["http://www.levyk12.org/home", "http://www.levyk12.org/school-board", "http://www.levyk12.org/superintendent", "http://www.levyk12.org/finance", "http://www.levyk12.org/schools", "https://www.sbac.edu/legal"
+        "urls": ["http://www.levyk12.org/home", "http://www.levyk12.org/school-board", "http://www.levyk12.org/superintendent", "http://www.levyk12.org/finance", "http://www.levyk12.org/schools", "http://www.levyk12.org/public-records-request", "https://www.youtube.com/user/LevyCountySchools"
       ],
         "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
       },
@@ -103,43 +103,43 @@
         "name": "Bradford County",
         "urls": [
           "https://www.bradfordcountyfl.gov/",
-          "https://www.Bradfordcounty.org/212/Board-of-County-Commissioners",
-          "https://www.Bradfordcounty.org/calendar.aspx",
-          "https://www.Bradfordcounty.org/198/Public-Information-Office"
+          "https://www.bradfordcountyfl.gov/county-commisisoners/",
+          "https://www.bradfordcountyfl.gov/meetings-agendas/",
+          "https://www.bradfordcountyfl.gov/information-technology/"
         ],
         "description": "Through the Bradford County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
       },
       {
         "name": "Bradford School Board",
-        "urls": ["http://www.Bradfordk12.org/home", "http://www.Bradfordk12.org/school-board", "http://www.Bradfordk12.org/superintendent", "http://www.Bradfordk12.org/finance", "http://www.Bradfordk12.org/schools", "https://www.sbac.edu/legal"
+        "urls": ["https://www.bradfordschools.org/", "https://www.bradfordschools.org/school-board/members", "https://www.bradfordschools.org/departments/administration/employeedirectory/contact-the-superintendent", "https://www.bradfordschools.org/departments/finance", "https://www.bradfordschools.org/resources/home", "https://www.bradfordschools.org/school-board/public-records-request", "https://www.bradfordschools.org/school-board/meetings"
       ],
         "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
       },
       {
         "name": "Bradford Sheriff's Office",
-        "urls": ["https://Bradfordso.com/", "https://Bradfordso.com/making-a-public-records-request/"
+        "urls": ["https://www.bradfordsheriff.org/", "https://www.bradfordsheriff.org/administration/public-records/"
         ],
         "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
       },
       {
         "name": "Bradford Property Appraiser",
-        "urls": ["https://www.qpublic.net/fl/Bradford/","https://qpublic.schneidercorp.com/Application.aspx?AppID=930&LayerID=18185&PageTypeID=2&PageID=8125", "https://qpublic.schneidercorp.com/Application.aspx?App=BradfordCountyFL&PageType=Map"
+        "urls": ["https://www.bradfordappraiser.com/","https://www.bradfordappraiser.com/gis/", "https://www.bradfordappraiser.com/GIS/?GIS"
       ],
         "description": "Run property searches through the County Property Appraiser site."
       },
       {
         "name": "Bradford Clerk of Court",
-        "urls": "https://online.Bradfordclerk.com/landmarkweb",
+        "urls": "https://www.civitekflorida.com/ocrs/app/search.xhtml",
         "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
       },
       {
         "name": "Bradford Tax Collector",
-        "urls": "https://Bradfordtax.org/",
+        "urls": "https://www.bradfordtaxcollector.com/",
         "description": "This is the Tax Collector site."
       },
       {
         "name": "Bradford Jail",
-        "urls": "https://www.inmatesearchflorida.org/Bradford_County.html",
+        "urls": "http://smartweb.bradfordsheriff.org/smartwebclient/Jail.aspx",
         "description": "Find the name, age, sex, race, pod and booking date of an inmate."
       }
     ]
