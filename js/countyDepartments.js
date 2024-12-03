@@ -44,13 +44,13 @@ function loaddepartment(departmentId) {
                 buttonText = countyNames[index] || buttonText;
 
                 buttons += `
-                    <a href="${url}" class="btn btn-link m-2" target="_blank">${buttonText}</a>
+                    <a href="${url}" class="btn btn-link px-2 py-1" target="_blank">${buttonText}</a>
                 `;
             });
         }
 
         contentArea.innerHTML += `
-            <div class="col-lg-12 mx-auto">
+            <div class="col-lg-12 mx-auto mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
                         <p class="card-text">${site.description}</p>

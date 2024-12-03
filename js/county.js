@@ -458,9 +458,6 @@ function loadCounty(countyId) {
 
             });
         }
-        
-              
-
         contentArea.innerHTML += `
             <div class="col-lg-12 mx-auto">
                 <div class="card h-100 shadow-sm">
