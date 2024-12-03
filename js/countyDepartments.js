@@ -50,7 +50,7 @@ function loaddepartment(departmentId) {
         }
 
         contentArea.innerHTML += `
-            <div class="col-lg-12 mx-auto">
+            <div class="col-lg-10 mx-auto">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
                         <p class="card-text">${site.description}</p>
