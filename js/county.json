@@ -37,7 +37,7 @@
         "name": "Alachua Property Appraiser",
         "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000", "https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=1&PageID=10767"
       ],
-        "description": "Run property searches through the Alachua County Property Appraiser site."
+        "description": "Run property searches through the property appraiser site."
       },
       {
         "name": "Alachua Clerk of Court",
@@ -47,12 +47,12 @@
       {
         "name": "Alachua Tax Collector",
         "urls": "https://www.alachuacollector.com/",
-        "description": "This is the Alachua County Tax Collector site."
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
       },
       {
         "name": "Alachua Jail",
         "urls": "https://asosite.alachuasheriff.org/ASOInmateLookup.aspx",
-        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+        "description": "Find information about an inmate."
       }
     ]
   },
@@ -94,7 +94,7 @@
                   "https://www.bradfordappraiser.com/gis/", 
                   "https://www.bradfordappraiser.com/GIS/?GIS"
       ],
-        "description": "Run property searches through the County Property Appraiser site."
+        "description": "Run property searches through the property appraiser site."
       },
       {
         "name": "Bradford Clerk of Court",
@@ -104,12 +104,12 @@
       {
         "name": "Bradford Tax Collector",
         "urls": "https://www.bradfordtaxcollector.com/",
-        "description": "This is the Tax Collector site."
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
       },
       {
         "name": "Bradford Jail",
         "urls": "http://smartweb.bradfordsheriff.org/smartwebclient/Jail.aspx",
-        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+        "description": "Find information about an inmate."
       }
     ]
   },
@@ -148,7 +148,7 @@
         "name": "Levy Property Appraiser",
         "urls": ["https://www.qpublic.net/fl/levy/","https://qpublic.schneidercorp.com/Application.aspx?AppID=930&LayerID=18185&PageTypeID=2&PageID=8125", "https://qpublic.schneidercorp.com/Application.aspx?App=LevyCountyFL&PageType=Map"
       ],
-        "description": "Run property searches through the County Property Appraiser site."
+        "description": "Run property searches through the property appraiser site."
       },
       {
         "name": "Levy Clerk of Court",
@@ -158,12 +158,12 @@
       {
         "name": "Levy Tax Collector",
         "urls": "https://levytax.org/",
-        "description": "This is the Tax Collector site."
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
       },
       {
         "name": "Levy Jail",
         "urls": "https://www.inmatesearchflorida.org/Levy_County.html",
-        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+        "description": "Find information about an inmate."
       }
     ]
   },
@@ -195,13 +195,13 @@
         "name": "Gilchrist Sheriff's Office",
         "urls": ["https://www.gcso.us/"
         ],
-        "description": "Gilchrist County does not have a page for the Sheriff's office, yet."
+        "description": "Gilchrist County does not have a page for the Sheriff's office."
       },
       {
         "name": "Gilchrist Property Appraiser",
         "urls": ["https://www.qpublic.net/fl/gilchrist/","https://qpublic.schneidercorp.com/Application.aspx?App=GilchristCountyFL&Layer=Parcels&PageType=Search", "https://qpublic.schneidercorp.com/Application.aspx?AppID=820&LayerID=15174&PageTypeID=1&PageID=6880"
       ],
-        "description": "Run property searches through the County Property Appraiser site."
+        "description": "Run property searches through the property appraiser site."
       },
       {
         "name": "Gilchrist Clerk of Court",
@@ -211,12 +211,12 @@
       {
         "name": "Gilchrist Tax Collector",
         "urls": "https://fl-gilchrist-taxcollector.publicaccessnow.com/Home.aspx",
-        "description": "This is the Tax Collector site."
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
       },
       {
         "name": "Gilchrist Jail",
         "urls": "https://gilchristcountyjail.org/",
-        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+        "description": "Find information about an inmate."
       }
     ]
   },
@@ -253,7 +253,7 @@
         "name": "Union Property Appraiser",
         "urls": ["https://union.floridapa.com/","https://union.floridapa.com/gis/", "https://union.floridapa.com/gis/"
       ],
-        "description": "Run property searches through the County Property Appraiser site."
+        "description": "Run property searches through the property appraiser site."
       },
       {
         "name": "Union Clerk of Court",
@@ -263,12 +263,12 @@
       {
         "name": "Union Tax Collector",
         "urls": "https://unioncountytc.com/",
-        "description": "This is the Tax Collector site."
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
       },
       {
         "name": "Union Jail",
         "urls": "https://sheriff.unioncountync.gov/jailinmates.aspx",
-        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+        "description": "Find information about an inmate."
       }
     ]
   }

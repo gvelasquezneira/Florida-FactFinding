@@ -1,6 +1,6 @@
 nav {
     font-family: 'Poppins', 'Afacad Flux', Verdana, sans-serif;
-    background-color: #f8f9fa; /* Light red for `.new_one` */
+    background-color: #f8f9fa; 
 }
 
 .sidebar-btn:hover {
@@ -22,15 +22,15 @@ p, ul {
 }
 
 .welcome {
-    background-color: #a5d4ff; /* Light blue for `.new` */
+    background-color: #a5d4ff; 
 }
 .new {
-    background-color: #ffa5a5; /* Light red for `.new_one` */
+    background-color: #ffa5a5; 
 }
 
 .dashboard p {
     font-family: 'Poppins', 'Afacad Flux', Verdana, sans-serif;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 .website {
@@ -40,7 +40,7 @@ p, ul {
 
 #map {
     width: 100%;
-    height: 500px; /* Example: adjust as needed */
-    position: relative; /* Optional for layout control */
+    height: 500px; 
+    position: relative; 
 }
 
