@@ -106,6 +106,17 @@ function loadCounty(countyId) {
                             buttonText = `Visit Website`;
                     }
                 }
+                else if (site.url) {
+                    if (site.name === "Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Jail") {
+                        buttonText = "Inmate Search";
+                    } else {
+                        buttonText = "Visit Website";
+                    }
+                }
                 else if (site.name === "Levy County Commission") {
                     switch (index) {
                         case 0:
@@ -174,11 +185,11 @@ function loadCounty(countyId) {
                     }
                 }
                 else if (site.url) {
-                    if (site.name === "Clerk of Court") {
+                    if (site.name === "Levy Clerk of Court") {
                         buttonText = "Clerk of Court";
-                    } else if (site.name === "Tax Collector") {
+                    } else if (site.name === "Levy Tax Collector") {
                         buttonText = "Tax Collector";
-                    } else if (site.name === "Jail") {
+                    } else if (site.name === "Levy Jail") {
                         buttonText = "Inmate Search";
                     } else {
                         buttonText = "Visit Website";
