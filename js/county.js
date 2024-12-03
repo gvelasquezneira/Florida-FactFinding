@@ -33,36 +33,71 @@ function loadCounty(countyId) {
         if (site.urls) {
             site.urls.forEach((url, index) => {
                 let buttonText = '';
-                switch (index) {
-                    case 0:
-                        buttonText = 'County';
-                        break;
-                    case 1:
-                        buttonText = 'Board';
-                        break;
-                    case 2:
-                        buttonText = 'Map';
-                        break;
-                    case 3:
-                        buttonText = 'Meetings';
-                        break;
-                    default:
-                        buttonText = `Link ${index + 1}`;
-                        break;
+        
+                // Custom button labels for "County Commission"
+                if (site.name === "County Commission") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'County';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Map';
+                            break;
+                        case 3:
+                            buttonText = 'Meetings';
+                            break;
+                        case 4:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                            break;
+                    }
                 }
+        
+                // Custom button labels for "Sheriff's Office"
+                else if (site.name === "Sheriff's Office") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Sheriff';
+                            break;
+                        case 1:
+                            buttonText = 'PRR';
+                            break;
+                        case 2:
+                            buttonText = 'Ride-Along';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                            break;
+                    }
+                }
+                else if (site.name === "Property Appraiser") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Property Appraiser';
+                            break;
+                        case 1:
+                            buttonText = 'Property Search';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                            break;
+                    }
+                }
+        
+                // Default fallback for other sites
+                else {
+                    buttonText = `Link ${index + 1}`;
+                }
+        
+                // Generate the button
                 buttons += `<a href="${url}" class="btn btn-primary mb-2 me-2" target="_blank">${buttonText}</a>`;
             });
-        } else if (site.url) {
-            let buttonText = '';
-            if (site.name === "Sheriff's Office") {
-                buttonText = "Sheriff's Website";
-            } else if (site.name === "Property Appraiser") {
-                buttonText = "Appraiser Site";
-            } else {
-                buttonText = "Visit Website";
-            }
-            buttons = `<a href="${site.url}" class="btn btn-primary mb-2 me-2" target="_blank">${buttonText}</a>`;
-        }
+        }        
 
         contentArea.innerHTML += `
             <div class="col-md-6 mb-4">

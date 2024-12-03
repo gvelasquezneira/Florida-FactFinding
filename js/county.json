@@ -8,19 +8,22 @@
           "https://alachuacounty.us/",
           "https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
           "https://acgm.maps.arcgis.com/apps/instant/basic/index.html?appid=675274e039a6454a81a46fc44d30a453",
-          "https://alachua.granicus.com/ViewPublisher.php?view_id=8"
+          "https://alachua.granicus.com/ViewPublisher.php?view_id=8",
+          "https://alachuacounty.us/Depts/Communications/Pages/PublicRecordsRequest.aspx"
         ],
         "description": "Through the Alachua County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
       },
       {
         "name": "Sheriff's Office",
-        "url": "https://acso.us/",
-        "description": "Alachua County Sheriff's Office for law enforcement services."
+        "urls": ["https://acso.us/", "https://acso.us/how-to/request-public-records/", "https://acso.us/how-to/join-a-ride-along/"
+        ],
+        "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
       },
       {
         "name": "Property Appraiser",
-        "url": "https://acso.us/",
-        "description": "Alachua County Sheriff's Office for law enforcement services."
+        "urls": ["https://www.acpafl.org/","https://qpublic.schneidercorp.com/Application.aspx?AppID=1081&LayerID=26490&PageTypeID=2&PageID=10768&KeyValue=02241-000-000"
+      ],
+        "description": "Run property searches through the Alachua County Property Appraiser site."
       }
     ]
   },
