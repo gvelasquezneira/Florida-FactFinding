@@ -58,7 +58,6 @@ function loaddepartment(departmentId) {
             <div class="col-lg-12 mx-auto">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body flex-column">
-                        <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
                         <div class="mt-auto">
                             ${buttons}
