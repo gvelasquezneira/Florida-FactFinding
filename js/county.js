@@ -450,7 +450,10 @@ function loadCounty(countyId) {
                     buttonText = "Visit Website";
                 }
         
-                buttons += `<a href="${url}" class="btn btn-primary mb-2 me-2" target="_blank">${buttonText}</a>`;
+                buttons += 
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                <a href="${url}" class="btn btn-primary me-2 align-text-bottom" target="_blank">${buttonText}</a>
+                </div>;
             });
         }
         
@@ -459,14 +462,17 @@ function loadCounty(countyId) {
         contentArea.innerHTML += `
             <div class="col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
-                        ${buttons}
+                        <div class="mt-auto"> <!-- Ensures buttons align at the bottom -->
+                            ${buttons}
+                        </div>
                     </div>
                 </div>
             </div>
         `;
+
     });
 
     welcomeSection.style.display = 'none';
