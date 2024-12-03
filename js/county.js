@@ -464,7 +464,7 @@ function loadCounty(countyId) {
         contentArea.innerHTML += `
             <div class="col-lg-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
+                    <div class="card-body d-flex flex-row">
                         <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
                         <div class="mt-auto">
