@@ -18,19 +18,17 @@ function populatedepartmentDropdown() {
 }
 
 function loaddepartment(departmentId) {
-    const department = departmentData.department[departmentId];  
+    const department = departmentData.department[departmentId];
     if (!department) {
         console.log("NO DEPT");
-        return; 
+        return;
     }
     const contentArea = document.getElementById('departmentContent');
     const welcomeSection = document.getElementById('welcomeSection');
     contentArea.innerHTML = ''; 
 
-   
-    contentArea.innerHTML += `<div class="col-12 mb-4"><h2>${departmentId}</h2></div>`;
+    contentArea.innerHTML += `<div class="col-12 mb-4 text-center"><h2>${departmentId}</h2></div>`;
 
-   
     department.forEach(site => {
         let buttons = '';
 
@@ -38,10 +36,8 @@ function loaddepartment(departmentId) {
             const urlsArray = Array.isArray(site.urls) ? site.urls : [site.urls];
 
             urlsArray.forEach((url, index) => {
-                let buttonText = `Visit Website`;
-
                 const countyNames = ['Alachua', 'Bradford', 'Gilchrist', 'Levy', 'Union'];
-                buttonText = countyNames[index] || buttonText;
+                const buttonText = countyNames[index] || 'Visit Website';
 
                 buttons += `
                     <a href="${url}" class="btn btn-link px-2 py-1" target="_blank">${buttonText}</a>
@@ -49,8 +45,9 @@ function loaddepartment(departmentId) {
             });
         }
 
+        // Add a responsive card for each site
         contentArea.innerHTML += `
-            <div class="col-lg-12 mx-auto mb-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 mx-auto mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
                         <p class="card-text">${site.description}</p>
@@ -63,6 +60,8 @@ function loaddepartment(departmentId) {
         `;
     });
 
+    // Show content area and hide welcome section
     welcomeSection.style.display = 'none';
     contentArea.style.display = 'flex';
 }
+
