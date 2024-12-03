@@ -12,7 +12,7 @@ function populatedepartmentDropdown() {
     
     for (const department in departmentData) {
         const li = document.createElement('li');
-        li.innerHTML = `<a class='dropdown-item' href='#' onclick='loadDepartment("${department}")'>${departmentData[department].name}</a>`;
+        li.innerHTML = `<a class='dropdown-item' href='#' onclick='loaddepartment("${department}")'>${departmentData[department].name}</a>`;
         dropdown.appendChild(li);
     }
 }
