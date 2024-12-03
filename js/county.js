@@ -465,7 +465,7 @@ function loadCounty(countyId) {
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
-                        <div class="mt-auto"> <!-- Ensures buttons align at the bottom -->
+                        <div class="mt-auto">
                             ${buttons}
                         </div>
                     </div>

@@ -1,0 +1,95 @@
+{
+  "departments": {
+    "County Commission": [
+      {
+        "name": "County Commission",
+        "urls": [
+          "https://alachuacounty.us/",
+          "https://www.bradfordcountyfl.gov/",
+          "https://www.levycounty.org/",
+          "https://gilchrist.fl.us/",
+          "https://unioncounty-fl.gov/"
+        ],
+        "description": "Through the Commission website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+      }
+    ],
+    "School Board": [
+      {
+        "name": "School Board",
+        "urls": [
+          "https://www.sbac.edu/",
+          "https://www.bradfordschools.org/",
+          "http://www.levyk12.org/home",
+          "https://www.gilchristschools.org/",
+          "https://www.union.k12.fl.us/"
+        ],
+        "description": "Through the school board site you can find the current superintendent, the board members, and the district's finances."
+      }
+    ],
+    "Sheriff's Office": [
+      {
+        "name": "Sheriff's Office",
+        "urls": [
+          "https://acso.us/",
+          "https://www.bradfordsheriff.org/",
+          "https://levyso.com/",
+          "https://www.gcso.us/",
+          "http://unionsheriff.us/"
+        ],
+        "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies, and sign up for a ride-along."
+      }
+    ],
+    "Property Appraiser": [
+      {
+        "name": "Property Appraiser",
+        "urls": [
+          "https://www.acpafl.org/",
+          "https://www.bradfordappraiser.com/",
+          "https://www.qpublic.net/fl/levy/",
+          "https://www.qpublic.net/fl/gilchrist/",
+          "https://union.floridapa.com/"
+        ],
+        "description": "Run property searches through the Property Appraiser site."
+      }
+    ],
+    "Clerk of Court": [
+      {
+        "name": "Clerk of Court",
+        "urls": [
+          "https://www.alachuaclerk.org/court_records/index.cfm?section=login&r=588181",
+          "https://www.civitekflorida.com/ocrs/app/search.xhtml",
+          "https://online.levyclerk.com/landmarkweb",
+          "https://www.civitekflorida.com/ocrs/county/21/",
+          "https://unionclerk.com/"
+        ],
+        "description": "The Clerk of Court site will help to find information about a case. The site will also tell you if a person is in jail."
+      }
+    ],
+    "Tax Collector": [
+      {
+        "name": "Tax Collector",
+        "urls": [
+          "https://www.alachuacollector.com/",
+          "https://www.bradfordtaxcollector.com/",
+          "https://levytax.org/",
+          "https://fl-gilchrist-taxcollector.publicaccessnow.com/Home.aspx",
+          "https://unioncountytc.com/"
+        ],
+        "description": "This is the Tax Collector site for each county."
+      }
+    ],
+    "Jail": [
+      {
+        "name": "Jail",
+        "urls": [
+          "https://asosite.alachuasheriff.org/ASOInmateLookup.aspx",
+          "http://smartweb.bradfordsheriff.org/smartwebclient/Jail.aspx",
+          "https://www.inmatesearchflorida.org/Levy_County.html",
+          "https://gilchristcountyjail.org/",
+          "https://sheriff.unioncountync.gov/jailinmates.aspx"
+        ],
+        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+      }
+    ]
+  }
+}
