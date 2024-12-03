@@ -4,10 +4,10 @@ fetch('js/countyDepartments.json')
     .then(response => response.json())
     .then(data => {
         departmentData = data; 
-        populateDepartmentDropdown();
+        populatedepartmentDropdown();
     })
 
-function populateDepartmentDropdown() {
+function populatedepartmentDropdown() {
     const dropdown = document.getElementById('departmentDropdown');
     
     for (const department in departmentData) {
@@ -17,7 +17,7 @@ function populateDepartmentDropdown() {
     }
 }
 
-function loadDepartment(departmentId) {
+function loaddepartment(departmentId) {
     const department = departmentData.department[departmentId];  
     if (!department) return; 
 
