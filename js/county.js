@@ -31,9 +31,11 @@ function loadCounty(countyId) {
         let buttons = '';
 
         if (site.urls) {
-            site.urls.forEach((url, index) => {
+            const urlsArray = Array.isArray(site.urls) ? site.urls : [site.urls];
+        
+            urlsArray.forEach((url, index) => {
                 let buttonText = '';
-
+        
                 if (site.name === "County Commission") {
                     switch (index) {
                         case 0:
@@ -104,21 +106,14 @@ function loadCounty(countyId) {
                             buttonText = `Visit Website`;
                     }
                 }
-                else if (site.url) {
-                    if (site.name === "Clerk of Court") {
-                        buttonText = "Clerk of Court";
-                    } else if (site.name === "Tax Collector") {
-                        buttonText = "Tax Collector";
-                    } else if (site.name === "Jail") {
-                        buttonText = "Inmate Search";
-                    } else {
-                        buttonText = "Visit Website";
-                    }
+                else {
+                    buttonText = "Visit Website";
                 }
-    
+        
                 buttons += `<a href="${url}" class="btn btn-primary mb-2 me-2" target="_blank">${buttonText}</a>`;
             });
         }
+        
               
 
         contentArea.innerHTML += `
