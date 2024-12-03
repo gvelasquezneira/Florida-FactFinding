@@ -100,7 +100,7 @@
     "name": "Bradford County",
     "websites": [
       {
-        "name": "Bradford County",
+        "name": "Bradford County Commission",
         "urls": [
           "https://www.bradfordcountyfl.gov/",
           "https://www.bradfordcountyfl.gov/county-commisisoners/",
@@ -111,19 +111,28 @@
       },
       {
         "name": "Bradford School Board",
-        "urls": ["https://www.bradfordschools.org/", "https://www.bradfordschools.org/school-board/members", "https://www.bradfordschools.org/departments/administration/employeedirectory/contact-the-superintendent", "https://www.bradfordschools.org/departments/finance", "https://www.bradfordschools.org/resources/home", "https://www.bradfordschools.org/school-board/public-records-request", "https://www.bradfordschools.org/school-board/meetings"
+        "urls": ["https://www.bradfordschools.org/", 
+                  "https://www.bradfordschools.org/school-board/members", 
+                  "https://www.bradfordschools.org/departments/administration/employeedirectory/contact-the-superintendent", 
+                  "https://www.bradfordschools.org/departments/finance", 
+                  "https://www.bradfordschools.org/resources/home", 
+                  "https://www.bradfordschools.org/school-board/public-records-request", 
+                  "https://www.bradfordschools.org/school-board/meetings"
       ],
         "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
       },
       {
         "name": "Bradford Sheriff's Office",
-        "urls": ["https://www.bradfordsheriff.org/", "https://www.bradfordsheriff.org/administration/public-records/"
+        "urls": ["https://www.bradfordsheriff.org/", 
+                  "https://www.bradfordsheriff.org/administration/public-records/"
         ],
         "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
       },
       {
         "name": "Bradford Property Appraiser",
-        "urls": ["https://www.bradfordappraiser.com/","https://www.bradfordappraiser.com/gis/", "https://www.bradfordappraiser.com/GIS/?GIS"
+        "urls": ["https://www.bradfordappraiser.com/",
+                  "https://www.bradfordappraiser.com/gis/", 
+                  "https://www.bradfordappraiser.com/GIS/?GIS"
       ],
         "description": "Run property searches through the County Property Appraiser site."
       },
@@ -140,6 +149,58 @@
       {
         "name": "Bradford Jail",
         "urls": "http://smartweb.bradfordsheriff.org/smartwebclient/Jail.aspx",
+        "description": "Find the name, age, sex, race, pod and booking date of an inmate."
+      }
+    ]
+  },
+  "Union": {
+    "name": "Union County",
+    "websites": [
+      {
+        "name": "Union County",
+        "urls": [
+          "https://unioncounty-fl.gov/",
+          "https://unioncounty-fl.gov/board-of-county-commissioners/",
+          "https://unioncounty-fl.gov/agendas/",
+          "https://union.floridapa.com/gis/"
+        ],
+        "description": "Through the Union County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+      },
+      {
+        "name": "Union School Board",
+        "urls": [ "https://www.union.k12.fl.us/",
+                  "https://www.union.k12.fl.us/school-board", 
+                  "https://www.union.k12.fl.us/finance", 
+                  "https://www.union.k12.fl.us/district-office-staff-directory", 
+                  "https://www.union.k12.fl.us/public-records"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
+        "name": "Union Sheriff's Office",
+        "urls": ["http://unionsheriff.us/", "http://unionsheriff.us/publicrecords.php"
+        ],
+        "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
+      },
+      {
+        "name": "Union Property Appraiser",
+        "urls": ["https://union.floridapa.com/","https://union.floridapa.com/gis/", "https://union.floridapa.com/gis/"
+      ],
+        "description": "Run property searches through the County Property Appraiser site."
+      },
+      {
+        "name": "Union Clerk of Court",
+        "urls": "https://unionclerk.com/",
+        "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
+      },
+      {
+        "name": "Union Tax Collector",
+        "urls": "https://unioncountytc.com/",
+        "description": "This is the Tax Collector site."
+      },
+      {
+        "name": "Union Jail",
+        "urls": "https://sheriff.unioncountync.gov/jailinmates.aspx",
         "description": "Find the name, age, sex, race, pod and booking date of an inmate."
       }
     ]
