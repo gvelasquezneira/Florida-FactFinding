@@ -3,8 +3,8 @@ nav {
     background-color: #f8f9fa; 
 }
 
-.sidebar-btn:hover {
-    color: white;
+.rounded-pill:hover {
+    color: #fff;
     background-color: #007bff;
     border-color: #007bff;
 }
