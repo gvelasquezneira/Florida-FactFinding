@@ -34,27 +34,33 @@ function loaddepartment(departmentId) {
     department.forEach(site => {
         let buttons = '';
 
+
         if (site.urls) {
             const urlsArray = Array.isArray(site.urls) ? site.urls : [site.urls];
 
             urlsArray.forEach((url, index) => {
-                let buttonText = `Visit Website`;
-
+                
+                let buttonText = `Visit Website`; 
+                
                 const countyNames = ['Alachua', 'Bradford', 'Gilchrist', 'Levy', 'Union'];
-                buttonText = countyNames[index] || buttonText;
+                buttonText = countyNames[index] || buttonText; 
 
+               
                 buttons += `
-                    <a href="${url}" class="btn btn-link px-2 py-1" target="_blank">${buttonText}</a>
+                    <div class="align-items-left justify-content-between mb-2">
+                        <a href="${url}" class="btn btn-primary mx-auto" target="_blank">${buttonText}</a>
+                    </div>
                 `;
             });
         }
 
         contentArea.innerHTML += `
-            <div class="col-lg-12 mx-auto mb-4">
+            <div class="col-lg-12 mx-auto">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
+                    <div class="card-body flex-column">
+                        <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
-                        <div class="d-flex flex-wrap justify-content-center mt-3">
+                        <div class="mt-auto">
                             ${buttons}
                         </div>
                     </div>
