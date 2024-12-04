@@ -60,7 +60,7 @@ function loaddepartment(departmentId) {
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
-                        <div class="mt-auto">
+                        <div class="d-flex flex-wrap justify-content-center">
                             ${buttons}
                         </div>
                     </div>
