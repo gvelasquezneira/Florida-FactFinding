@@ -10,7 +10,7 @@
           "https://gilchrist.fl.us/",
           "https://unioncounty-fl.gov/"
         ],
-        "description": "On the county websites, you can send a public records request, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+        "description": "Through the Commission website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
       }
     ],
     "School Board": [
@@ -26,9 +26,9 @@
         "description": "Through the school board site you can find the current superintendent, the board members, and the district's finances."
       }
     ],
-    "Sheriff's Office": [
+    "Sheriffs Office": [
       {
-        "name": "Sheriffs Office",
+        "name": "Sheriff's Office",
         "urls": [
           "https://acso.us/",
           "https://www.bradfordsheriff.org/",
@@ -62,7 +62,7 @@
           "https://www.civitekflorida.com/ocrs/county/21/",
           "https://unionclerk.com/"
         ],
-        "description": "The clerk of court site will help find details about a case."
+        "description": "The Clerk of Court site will help to find information about a case. The site will also tell you if a person is in jail."
       }
     ],
     "Tax Collector": [
@@ -75,7 +75,7 @@
           "https://fl-gilchrist-taxcollector.publicaccessnow.com/Home.aspx",
           "https://unioncountytc.com/"
         ],
-        "description": "Through the tax collector site you can find property taxes and if a person has a homestead exemption."
+        "description": "This is the Tax Collector site for each county."
       }
     ],
     "Jail": [
