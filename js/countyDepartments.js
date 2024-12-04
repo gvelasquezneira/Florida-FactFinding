@@ -48,7 +48,7 @@ function loaddepartment(departmentId) {
                
                 buttons += `
                     <div class="align-items-left justify-content-between mb-2">
-                        <a href="${url}" class="btn btn-primary mx-auto" target="_blank">${buttonText}</a>
+                        <a href="${url}" class="btn btn-link mx-auto" target="_blank">${buttonText}</a>
                     </div>
                 `;
             });
