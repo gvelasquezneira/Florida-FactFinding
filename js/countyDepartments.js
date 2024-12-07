@@ -42,7 +42,7 @@ function loaddepartment(departmentId) {
                 
                 let buttonText = `Visit Website`; 
                 
-                const countyNames = ['Alachua', 'Bradford', 'Gilchrist', 'Levy', 'Union'];
+                const countyNames = ['Alachua', 'Bradford', 'Levy', 'Gilchrist', 'Union'];
                 buttonText = countyNames[index] || buttonText; 
 
                

@@ -124,88 +124,6 @@ function loadCounty(countyId) {
                         buttonText = "Alachua Inmate Search";
                     } 
                 }
-                else if (site.name === "Levy County Commission") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'County';
-                            break;
-                        case 1:
-                            buttonText = 'Board';
-                            break;
-                        case 2:
-                            buttonText = 'Meetings';
-                            break;
-                        case 3:
-                            buttonText = 'PRR';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-        
-                else if (site.name === "Levy Sheriff's Office") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'Sheriff';
-                            break;
-                        case 1:
-                            buttonText = 'PRR';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                else if (site.name === "Levy Property Appraiser") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'Property Appraiser';
-                            break;
-                        case 1:
-                            buttonText = 'Property Search';
-                            break;
-                        case 2:
-                            buttonText = 'Map';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                else if (site.name === "Levy School Board") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'School Board';
-                            break;
-                        case 1:
-                            buttonText = 'Board';
-                            break;
-                        case 2:
-                            buttonText = 'Superintendent';
-                            break;
-                        case 3:
-                            buttonText = 'Finances';
-                            break;
-                        case 4:
-                            buttonText = 'Directory';
-                            break;
-                        case 5:
-                            buttonText = 'PRR';
-                            break;
-                        case 6:
-                            buttonText = 'Meetings';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                else if (site.url) {
-                    if (site.name === "Levy Clerk of Court") {
-                        buttonText = "Clerk of Court";
-                    } else if (site.name === "Levy Tax Collector") {
-                        buttonText = "Tax Collector";
-                    } else if (site.name === "Levy Jail") {
-                        buttonText = "Inmate Search";
-                    } 
-                }
                 else if (site.name === "Bradford County Commission") {
                     switch (index) {
                         case 0:
@@ -288,82 +206,6 @@ function loadCounty(countyId) {
                         buttonText = "Inmate Search";
                     } 
                 }
-                else if (site.name === "Union County Commission") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'County';
-                            break;
-                        case 1:
-                            buttonText = 'Board';
-                            break;
-                        case 2:
-                            buttonText = 'Meetings';
-                            break;
-                        case 3:
-                            buttonText = 'Map';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                
-                else if (site.name === "Union Sheriff's Office") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'Sheriff';
-                            break;
-                        case 1:
-                            buttonText = 'PRR';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                else if (site.name === "Union Property Appraiser") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'Property Appraiser';
-                            break;
-                        case 1:
-                            buttonText = 'Property Search';
-                            break;
-                        case 2:
-                            buttonText = 'Map';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                else if (site.name === "Union School Board") {
-                    switch (index) {
-                        case 0:
-                            buttonText = 'School Board';
-                            break;
-                        case 1:
-                            buttonText = 'Board + Superintendent + Meetings';
-                            break;
-                        case 2:
-                            buttonText = 'Finances';
-                            break;
-                        case 3:
-                            buttonText = 'Directory';
-                            break;
-                        case 4:
-                            buttonText = 'PRR';
-                            break;
-                        default:
-                            buttonText = `Visit Website`;
-                    }
-                }
-                else if (site.url) {
-                    if (site.name === "Union Clerk of Court") {
-                        buttonText = "Clerk of Court";
-                    } else if (site.name === "Union Tax Collector") {
-                        buttonText = "Tax Collector";
-                    } else if (site.name === "Union Jail") {
-                        buttonText = "Inmate Search";
-                    } 
-                }
                 else if (site.name === "Gilchrist County Commission") {
                     switch (index) {
                         case 0:
@@ -443,6 +285,164 @@ function loadCounty(countyId) {
                     } else if (site.name === "Gilchrist Tax Collector") {
                         buttonText = "Tax Collector";
                     } else if (site.name === "Gilchrist Jail") {
+                        buttonText = "Inmate Search";
+                    } 
+                }
+                else if (site.name === "Levy County Commission") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'County';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Meetings';
+                            break;
+                        case 3:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+        
+                else if (site.name === "Levy Sheriff's Office") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Sheriff';
+                            break;
+                        case 1:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Levy Property Appraiser") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Property Appraiser';
+                            break;
+                        case 1:
+                            buttonText = 'Property Search';
+                            break;
+                        case 2:
+                            buttonText = 'Map';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Levy School Board") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'School Board';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Superintendent';
+                            break;
+                        case 3:
+                            buttonText = 'Finances';
+                            break;
+                        case 4:
+                            buttonText = 'Directory';
+                            break;
+                        case 5:
+                            buttonText = 'PRR';
+                            break;
+                        case 6:
+                            buttonText = 'Meetings';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.url) {
+                    if (site.name === "Levy Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Levy Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Levy Jail") {
+                        buttonText = "Inmate Search";
+                    } 
+                }
+                else if (site.name === "Union County Commission") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'County';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Meetings';
+                            break;
+                        case 3:
+                            buttonText = 'Map';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                
+                else if (site.name === "Union Sheriff's Office") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Sheriff';
+                            break;
+                        case 1:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Union Property Appraiser") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Property Appraiser';
+                            break;
+                        case 1:
+                            buttonText = 'Property Search';
+                            break;
+                        case 2:
+                            buttonText = 'Map';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Union School Board") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'School Board';
+                            break;
+                        case 1:
+                            buttonText = 'Board + Superintendent + Meetings';
+                            break;
+                        case 2:
+                            buttonText = 'Finances';
+                            break;
+                        case 3:
+                            buttonText = 'Directory';
+                            break;
+                        case 4:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.url) {
+                    if (site.name === "Union Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Union Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Union Jail") {
                         buttonText = "Inmate Search";
                     } 
                 }
