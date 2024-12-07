@@ -113,6 +113,59 @@
       }
     ]
   },
+  "Gilchrist": {
+    "name": "Gilchrist County",
+    "websites": [
+      {
+        "name": "Gilchrist County Commission",
+        "urls": [
+          "https://gilchrist.fl.us/",
+          "https://gilchrist.fl.us/board-of-county-commissioners/",
+          "https://gilchrist.fl.us/calendar-of-events/",
+          "https://gilchrist.fl.us/disclaimer/"
+        ],
+        "description": "Through the Gilchrist County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+      },
+      {
+        "name": "Gilchrist School Board",
+        "urls": [ "https://www.gilchristschools.org/",
+                  "https://www.gilchristschools.org/page/school-board", 
+                  "https://www.gilchristschools.org/page/superintendents-page",
+                  "https://www.gilchristschools.org/page/finance", 
+                  "https://www.gilchristschools.org/staff", 
+                  "https://www.gilchristschools.org/page/public-records-information"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
+        "name": "Gilchrist Sheriff's Office",
+        "urls": ["https://www.gcso.us/"
+        ],
+        "description": "Gilchrist County does not have a page for the Sheriff's office."
+      },
+      {
+        "name": "Gilchrist Property Appraiser",
+        "urls": ["https://www.qpublic.net/fl/gilchrist/","https://qpublic.schneidercorp.com/Application.aspx?App=GilchristCountyFL&Layer=Parcels&PageType=Search", "https://qpublic.schneidercorp.com/Application.aspx?AppID=820&LayerID=15174&PageTypeID=1&PageID=6880"
+      ],
+        "description": "Run property searches through the property appraiser site."
+      },
+      {
+        "name": "Gilchrist Clerk of Court",
+        "urls": "https://www.civitekflorida.com/ocrs/county/21/",
+        "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
+      },
+      {
+        "name": "Gilchrist Tax Collector",
+        "urls": "https://fl-gilchrist-taxcollector.publicaccessnow.com/Home.aspx",
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
+      },
+      {
+        "name": "Gilchrist Jail",
+        "urls": "https://gilchristcountyjail.org/",
+        "description": "Find information about an inmate."
+      }
+    ]
+  },
   "levy": {
     "name": "Levy County",
     "websites": [
@@ -163,59 +216,6 @@
       {
         "name": "Levy Jail",
         "urls": "https://www.inmatesearchflorida.org/Levy_County.html",
-        "description": "Find information about an inmate."
-      }
-    ]
-  },
-  "Gilchrist": {
-    "name": "Gilchrist County",
-    "websites": [
-      {
-        "name": "Gilchrist County Commission",
-        "urls": [
-          "https://gilchrist.fl.us/",
-          "https://gilchrist.fl.us/board-of-county-commissioners/",
-          "https://gilchrist.fl.us/calendar-of-events/",
-          "https://gilchrist.fl.us/disclaimer/"
-        ],
-        "description": "Through the Gilchrist County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
-      },
-      {
-        "name": "Gilchrist School Board",
-        "urls": [ "https://www.gilchristschools.org/",
-                  "https://www.gilchristschools.org/page/school-board", 
-                  "https://www.gilchristschools.org/page/superintendents-page",
-                  "https://www.gilchristschools.org/page/finance", 
-                  "https://www.gilchristschools.org/staff", 
-                  "https://www.gilchristschools.org/page/public-records-information"
-      ],
-        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
-      },
-      {
-        "name": "Gilchrist Sheriff's Office",
-        "urls": ["https://www.gcso.us/"
-        ],
-        "description": "Gilchrist County does not have a page for the Sheriff's office."
-      },
-      {
-        "name": "Gilchrist Property Appraiser",
-        "urls": ["https://www.qpublic.net/fl/gilchrist/","https://qpublic.schneidercorp.com/Application.aspx?App=GilchristCountyFL&Layer=Parcels&PageType=Search", "https://qpublic.schneidercorp.com/Application.aspx?AppID=820&LayerID=15174&PageTypeID=1&PageID=6880"
-      ],
-        "description": "Run property searches through the property appraiser site."
-      },
-      {
-        "name": "Gilchrist Clerk of Court",
-        "urls": "https://www.civitekflorida.com/ocrs/county/21/",
-        "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
-      },
-      {
-        "name": "Gilchrist Tax Collector",
-        "urls": "https://fl-gilchrist-taxcollector.publicaccessnow.com/Home.aspx",
-        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
-      },
-      {
-        "name": "Gilchrist Jail",
-        "urls": "https://gilchristcountyjail.org/",
         "description": "Find information about an inmate."
       }
     ]
