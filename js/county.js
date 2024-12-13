@@ -370,6 +370,94 @@ function loadCounty(countyId) {
                         buttonText = "Inmate Search";
                     } 
                 }
+                else if (site.name === "Miami-Dade County Commission") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'County';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Mayor';
+                            break;
+                        case 3:
+                            buttonText = 'Meetings';
+                            break;
+                        case 4:
+                            buttonText = 'PRR';
+                            break;
+                        case 5:
+                            buttonText = 'Map';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                
+                else if (site.name === "Miami-Dade Sheriff's Office") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Sheriff';
+                            break;
+                        case 1:
+                            buttonText = 'PRR';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Miami-Dade Property Appraiser") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'Property Appraiser';
+                            break;
+                        case 1:
+                            buttonText = 'Property Search';
+                            break;
+                        case 2:
+                            buttonText = 'Map';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.name === "Miami-Dade School Board") {
+                    switch (index) {
+                        case 0:
+                            buttonText = 'School Board';
+                            break;
+                        case 1:
+                            buttonText = 'Board';
+                            break;
+                        case 2:
+                            buttonText = 'Superintendent';
+                            break;
+                        case 3:
+                            buttonText = 'Finances';
+                            break;
+                        case 4:
+                            buttonText = 'Directory';
+                            break;
+                        case 5:
+                            buttonText = 'PRR';
+                            break;
+                        case 6:
+                            buttonText = 'Meetings';
+                            break;
+                        default:
+                            buttonText = `Visit Website`;
+                    }
+                }
+                else if (site.url) {
+                    if (site.name === "Miami-Dade Clerk of Court") {
+                        buttonText = "Clerk of Court";
+                    } else if (site.name === "Miami-Dade Tax Collector") {
+                        buttonText = "Tax Collector";
+                    } else if (site.name === "Miami-Dade Jail") {
+                        buttonText = "Inmate Search";
+                    } 
+                }
                 else if (site.name === "Union County Commission") {
                     switch (index) {
                         case 0:
@@ -462,6 +550,7 @@ function loadCounty(countyId) {
             <div class="col-lg-12 mx-auto">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
+                        <h5 class="county-title">${site.name}</h5>
                         <p class="card-text">${site.description}</p>
                         <div class="d-flex flex-wrap justify-content-center mt-3">
                             ${buttons}

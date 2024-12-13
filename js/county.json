@@ -220,6 +220,62 @@
       }
     ]
   },
+  "Miami-Dade": {
+    "name": "Miami-Dade County",
+    "websites": [
+      {
+        "name": "Miami-Dade County Commission",
+        "urls": [
+          "https://www.miamidade.gov/global/home.page",
+          "https://www.miamidade.gov/global/government/commission/home.page",
+          "https://www.miamidade.gov/global/government/mayor/home.page",
+          "https://www.miamidade.gov/global/webcasting/home.page",
+          "https://www.miamidade.gov/global/publicrecords/search.page",
+          "https://mdc.maps.arcgis.com/apps/webappviewer/index.html?id=9ba6159252a1489a9ea65e8fffd079cf"
+        ],
+        "description": "Through the Miami-Dade County website, you can send a public records request to the county, learn about each commissioner and what districts they represent, learn the district boundaries, and find the meeting videos and agendas."
+      },
+      {
+        "name": "Miami-Dade School Board",
+        "urls": [ "https://www.Miami-Dade.k12.fl.us/",
+                  "https://www.Miami-Dade.k12.fl.us/school-board", 
+                  "https://www.Miami-Dade.k12.fl.us/finance", 
+                  "https://www.Miami-Dade.k12.fl.us/district-office-staff-directory", 
+                  "https://www.Miami-Dade.k12.fl.us/public-records"
+      ],
+        "description": "Through the school board site you can find the current superintendent, the board members and the districts finances."
+      },
+      {
+        "name": "Miami-Dade Sheriff's Office",
+        "urls": ["http://Miami-Dadesheriff.us/", "http://Miami-Dadesheriff.us/publicrecords.php"
+        ],
+        "description": "Through the Sheriff's website, you can submit public records requests, find contact numbers for agencies and sign-up for a ride-along."
+      },
+      {
+        "name": "Miami-Dade Property Appraiser",
+        "urls": ["https://Miami-Dade.floridapa.com/","https://Miami-Dade.floridapa.com/gis/", "https://Miami-Dade.floridapa.com/gis/"
+      ],
+        "description": "Run property searches through the property appraiser site."
+      },
+      {
+        "name": "Miami-Dade Clerk of Court",
+        "urls": ["https://www.miamidadeclerk.gov/clerk/home.page",
+                 "https://www2.miamidadeclerk.gov/cjis/"
+      ],
+        "description": "The Clerk of Court Site will help to find information about a case. The site will also tell you if a person is in jail."
+      },
+      {
+        "name": "Miami-Dade Tax Collector",
+        "urls": "https://Miami-Dadecountytc.com/",
+        "description": "Through the tax collector site you can find peoples property taxes and if they have a homestead exemption."
+      },
+      {
+        "name": "Miami-Dade Jail",
+        "urls": "https://sheriff.Miami-Dadecountync.gov/jailinmates.aspx",
+        "description": "Find information about an inmate."
+      }
+    ]
+  },
   "Union": {
     "name": "Union County",
     "websites": [
